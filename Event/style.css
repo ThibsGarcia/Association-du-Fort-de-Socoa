@@ -21,84 +21,72 @@ header{
 .menu-logo{
   width: 8%;
 }
-
 h1, h2 {
   font-size: 1em;
 }
 
-h3 {
-  font-size: 0.8em;
-}
-
-p {
-  font-size: 0.8em;
-  font-weight: 400;
-  line-height: 12px;
-}
-section {
-  width: 100%;
-}
 .photo1 {
   width: 100%;
 }
-article.galerie{
-  display: flex;
-  flex-direction: column;
+
+.contenant{
+  position: relative;
+  text-align: center;
+  color: black;
 }
-.galerie aside, .mon-histoire aside, .renovation aside {
-  display: flex;
-  padding: 0;
+
+.texte-evenement{
+  position: absolute;
+  background-color:rgba(243, 230, 186, 1) ;
+  top: 15%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  border-radius: 10%;
+}
+.texte-ouverture{
+  position: absolute;
+  width: 60%;
+  background-color:rgba(243, 230, 186, 1) ;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10%;
+}
+p{
   margin: 0;
+  font-size: 0.8em;
 }
 
-article.mon-histoire {
-  display: flex;
-  flex-direction: column;
-  
-}
-
-.mon-histoire p {
-  width:208px;
-}
-main.texte-king{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0;
-  
-}
-
-.king-henri {
-width: 25%;
-height: 93px;
-border-radius: 3px;
-align-self: center;
-}
-
-.photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
-  width: 50%;
-}
-
- .passion, .respect, .partage {
-  width: 45%;
-  height: 100%;
-}
-
-.partage {
-  align-self: flex-end;
-}
-
-main {
-  display:flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
+.paella-picture{
+  width: 40%;
  
 }
-hr{
+.paella p {
+  width: 50%;
+}
+div.paella{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.picture-hermione{
+  width: 200px;
+}
+
+.picture-gezi{
+  width: 200px;
+}
+
+.picture-yacht{
+  width: 200px;
+}
+
+.picture-zokoa{
+  width: 200px;
+}
+
+hr {
   background-color: black;
   width: 85%;
   height:2px;
@@ -149,10 +137,4 @@ hr{
 }
 .facebook, .enveloppe, .instagram, .twitter {
   height: 25px;
-}
-
-article.lien {
-  width: 100%;
-  display: flex;
-justify-content: space-evenly;
 }
