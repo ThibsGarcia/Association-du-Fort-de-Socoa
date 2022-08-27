@@ -1,6 +1,6 @@
 body {
   font-size: 16px;
-  font-family: 'Space Mono', monospace;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 0;
   margin: 0;
   background-color: rgba(217, 229, 214, 1);
@@ -10,9 +10,10 @@ header{
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: rgba(243, 230, 186, 1);
+ 
 }
 
 .logo-association  {
@@ -22,18 +23,24 @@ header{
   width: 8%;
 }
 
-h1, h2 {
-  font-size: 1em;
+h1 {
+  font-size: 4vw;
+}
+
+h2{
+  font-size: 3.5vw;
+  margin: 10px;
 }
 
 h3 {
-  font-size: 0.8em;
+  font-size: 3vw;
 }
 
 p {
-  font-size: 0.8em;
+  font-family: 'Space Mono', monospace;
+  font-size: 3vw;
   font-weight: 400;
-  line-height: 12px;
+  margin: 0;
 }
 section {
   width: 100%;
@@ -44,6 +51,7 @@ section {
 article.galerie{
   display: flex;
   flex-direction: column;
+  padding-bottom: 8%;
 }
 .galerie aside, .mon-histoire aside, .renovation aside {
   display: flex;
@@ -54,17 +62,18 @@ article.galerie{
 article.mon-histoire {
   display: flex;
   flex-direction: column;
-  
+  padding-bottom: 8%;
+
 }
 
 .mon-histoire p {
-  width:208px;
+  margin: 20px;
 }
 main.texte-king{
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: row;
   justify-content: space-between;
   margin: 0;
@@ -72,32 +81,44 @@ main.texte-king{
 }
 
 .king-henri {
-width: 25%;
-height: 93px;
-border-radius: 3px;
+width: 30%;
+height: 8%;
+border-radius: 5%;
 align-self: center;
+margin-right: 20px ;
 }
 
 .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
   width: 50%;
 }
+.renovation{
+  padding-bottom: 8%;
+}
+
+.texte-renovation{
+  width: 90%;
+  padding: 20px;
+}
+
+article.nos-valeur {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 8%;
+}
 
  .passion, .respect, .partage {
   width: 45%;
   height: 100%;
+  padding: 0 20px ;
 }
 
 .partage {
   align-self: flex-end;
 }
 
-main {
-  display:flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
- 
-}
+
 hr{
   background-color: black;
   width: 85%;
@@ -109,7 +130,9 @@ hr{
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  word-spacing: 0.5rem;
   
 
   align-items: center;
@@ -133,7 +156,7 @@ hr{
   border: 0;
   line-height: 2.5;
   padding: 0 20px;
-  font-size: 0.8em;
+  font-size: 0.8rem;
   text-align: center;
   color: #fff;
   border-radius: 10px;
